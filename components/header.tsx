@@ -12,7 +12,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2 px-3">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/images/icon.ico" alt="Icon" width={60} height={60}/>
+            <Image src="/images/icon.ico" alt="Icon" width={60} height={60} className="bg-popover rounded-full"/>
             <span className="font-bold text-xl">Jesús Soto</span>
           </Link>
         </div>

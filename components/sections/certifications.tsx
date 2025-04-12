@@ -19,13 +19,17 @@ export default function Certifications() {
         </h1>
         <div className="grid grid-cols-2">
           <div className="flex items-center justify-end px-20">
-            <Avatar>
-              <AvatarImage
-                src="images/certifications/harvard-university.svg"
-                alt="harvard-university"
-              />
-              <AvatarFallback>H</AvatarFallback>
-            </Avatar>
+            <div className="relative">
+              <div className="absolute inset-0 w-full h-full rounded-full blur-md bg-emerald-700 dark:bg-blue-500">
+              </div>
+              <Avatar>
+                <AvatarImage
+                  src="images/certifications/harvard-university.svg"
+                  alt="harvard-university"
+                />
+                <AvatarFallback>H</AvatarFallback>
+              </Avatar>
+            </div>
           </div>
           <div className="flex flex-col items-start justify-center gap-2">
             <h3 className="max-w-[700px] text-2xl text-muted-foreground">
