@@ -35,7 +35,7 @@ export async function sendEmail(formData: unknown) {
     // Configurar el correo
     const mailOptions = {
       from: `"Formulario de Contacto" <${email}>`,
-      to: "jsotomolinez12@gmail.com.com",
+      to: process.env.EMAIL_USER,
       subject: `Nuevo mensaje: ${subject}`,
       text: message,
       html: `
