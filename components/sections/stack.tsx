@@ -9,7 +9,7 @@ export default function Stack() {
 
   return (
     <section
-      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-3000 ${
+      className={`py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       id="stack"
@@ -18,7 +18,7 @@ export default function Stack() {
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl">
           Mis tecnologías favoritas
         </h1>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
           <div className="relative">
             <div className="absolute inset-0 w-full h-full rounded-full blur-sm bg-emerald-700 dark:bg-blue-500">
             </div>

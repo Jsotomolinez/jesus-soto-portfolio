@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
     <section
-      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-3000 ${
+      className={`py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial w-full ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       id="contact"
@@ -21,7 +21,7 @@ export default function Contact() {
         <h3 className="max-w-[700px] text-2xl text-muted-foreground mb-5">
           Puedes escribir a mi correo electronico aquí
         </h3>
-        <div className="relative">
+        <div className="relative  w-full lg:w-2/5">
           <div className="absolute inset-0 w-full h-full rounded-md blur-md bg-emerald-700 dark:bg-blue-500">
           </div>
           <div className="relative z-10 grid place-items-center h-full">

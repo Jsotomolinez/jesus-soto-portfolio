@@ -9,9 +9,9 @@ import { Separator } from "@/components/ui/separator"
 export default function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
     <footer className={cn("bg-background", className)}>
-      <Separator className="my-8" />
       <div className="container px-4 py-12 md:py-16">
-        <div className="flex justify-around space-y-4">
+        {/* Info sections */}
+        <div className="flex justify-around space-y-4 gap-5 text-center">
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Servicios</h3>
             <div className="text-sm text-muted-foreground">
@@ -50,10 +50,7 @@ export default function Footer({ className }: React.HTMLAttributes<HTMLElement>)
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Mis redes</h3>
-            <div className="flex space-x-3">
-              
-              
-              
+            <div className="flex flex-col items-center md:flex-row px-2">
               <Link href="https://www.linkedin.com/in/jesus-alejandro-soto-molinez-0909b5345" target="blank" className={cn(buttonVariants({ variant: "ghost", size: "icon" }))}>
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
@@ -66,8 +63,8 @@ export default function Footer({ className }: React.HTMLAttributes<HTMLElement>)
           </div>
         </div>
         <Separator className="my-8" />
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-sm text-muted-foreground">
+        <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
+          <p className="text-sm text-muted-foreground ">
             &copy; {new Date().getFullYear()} Jesús Soto. Todos los derechos reservados.
           </p>
           {/* <div className="flex gap-4 text-sm text-muted-foreground">

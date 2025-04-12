@@ -8,7 +8,7 @@ export default function Certifications() {
 
   return (
     <section
-      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-3000 ${
+      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       id="certifications"
@@ -17,8 +17,8 @@ export default function Certifications() {
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl">
             Certificaciones
         </h1>
-        <div className="grid grid-cols-2">
-          <div className="flex items-center justify-end px-20">
+        <div className="flex flex-col items-center gap-5 md:grid md:grid-cols-2">
+          <div className="flex items-center md:justify-end px-20">
             <div className="relative">
               <div className="absolute inset-0 w-full h-full rounded-full blur-md bg-emerald-700 dark:bg-blue-500">
               </div>
@@ -31,7 +31,7 @@ export default function Certifications() {
               </Avatar>
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center gap-2">
+          <div className="flex flex-col items-center md:items-start justify-center gap-2">
             <h3 className="max-w-[700px] text-2xl text-muted-foreground">
               Harvard University - CS50
             </h3>

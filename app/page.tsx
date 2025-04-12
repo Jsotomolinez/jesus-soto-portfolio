@@ -6,7 +6,7 @@ import Contact from "@/components/sections/contact"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-to-b from-background to-secondary">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 bg-gradient-to-b from-background to-secondary">
       <Welcome />
       <div className="w-10/12 ">
         <hr />

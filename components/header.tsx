@@ -19,24 +19,39 @@ export function Header() {
 
         {/* Navegación para escritorio */}
         <nav className="hidden md:flex items-center gap-10">
-          <Link href="#welcome" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link
+            href="#welcome"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
             Inicio
           </Link>
-          <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link
+            href="#about"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
             Acerca de mi
           </Link>
-          <Link href="#stack" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link
+            href="#stack"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
             Stack
           </Link>
-          <Link href="#certifications" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link
+            href="#certifications"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
             Certificaciones
           </Link>
-          <Link href="#contact" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link
+            href="#contact"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
             Contacto
           </Link>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 px-5">
           <ModeToggle />
           
 
@@ -49,8 +64,8 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <nav className="flex flex-col gap-4 mt-8">
-                <Link href="#welcome" className="text-sm font-medium transition-colors hover:text-primary">
+              <nav className="flex flex-col gap-4 mt-8 pl-5">
+                <Link href="#welcome" className="text-sm font-medium transition-colors hover:text-primary scroll-smooth">
                   Inicio
                 </Link>
                 <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">

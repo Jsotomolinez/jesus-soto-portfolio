@@ -6,7 +6,7 @@ export default function Welcome() {
   const isVisible = useVisibility("welcome")
   return (
     <section
-      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-3000 ${
+      className={`container py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       id="welcome"
