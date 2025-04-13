@@ -44,7 +44,7 @@ export default function Certifications() {
               <br /> <br />
             </p>
             <p className="max-w-[700px] text-lg text-muted-foreground">
-              Cs50x: Introducción a las ciencias de la computación (terminando)
+              Cs50x: Introducción a las ciencias de la computación
               <br /> <br />
             </p>
           </div>
