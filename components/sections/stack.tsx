@@ -113,10 +113,23 @@ export default function Stack() {
           <div className="relative">
             <div className="absolute inset-0 w-full h-full rounded-full blur-sm bg-emerald-700 dark:bg-blue-500">
             </div>
-            <Link href="https://zod.dev/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/images/tech/zod.svg"
-                alt="zod"
+                src="/images/tech/postgresql.svg"
+                alt="postgresql"
+                width={100}
+                height={100}
+                className="relative flex size-20 md:size-30 shrink-0 overflow-hidden rounded-full bg-popover"
+              />
+            </Link>
+          </div>
+          <div className="relative">
+            <div className="absolute inset-0 w-full h-full rounded-full blur-sm bg-emerald-700 dark:bg-blue-500">
+            </div>
+            <Link href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/tech/mongodb.svg"
+                alt="mongodb"
                 width={100}
                 height={100}
                 className="relative flex size-20 md:size-30 shrink-0 overflow-hidden rounded-full bg-popover"
