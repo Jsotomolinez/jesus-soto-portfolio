@@ -9,7 +9,7 @@ import { Separator } from "@/components/ui/separator"
 export default function Footer({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
     <footer className={cn("bg-background", className)}>
-      <div className="container px-4 py-12 md:py-16">
+      <div className="px-4 py-12 md:py-16">
         {/* Info sections */}
         <div className="flex justify-around space-y-4 gap-5 text-center">
           <div className="space-y-4">
