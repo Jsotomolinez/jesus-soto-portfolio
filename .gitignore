@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# components that i might want to keep
+/components/particles-2.tsx
+/components/atoms.tsx
