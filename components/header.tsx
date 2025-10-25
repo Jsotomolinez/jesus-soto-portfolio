@@ -3,7 +3,7 @@ import { Menu } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { ModeToggle } from "./mode-toggle"
+// import { ModeToggle } from "./mode-toggle"
 import Image from "next/image"
 
 export function Header() {
@@ -52,7 +52,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2 px-5">
-          <ModeToggle />
+          {/* <ModeToggle /> */}
           
 
           {/* Menú móvil */}
