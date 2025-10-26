@@ -8,8 +8,7 @@ export default function Stack() {
 
   return (
     <section
-      className={`py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial ${isVisible ? "opacity-100" : "opacity-0"
-        }`}
+      className={`py-12 md:py-24 lg:py-32 transition-opacity duration-1500 ease-initial ${isVisible ? "opacity-100" : "opacity-0"}`}
       id="stack"
     >
       <div className="mx-auto flex max-w-[980px] flex-col items-center gap-4 text-center">

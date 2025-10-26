@@ -1,8 +1,6 @@
 'use client';
 
 import { useVisibility } from "@/app/hooks/opacity";
-import Image from "next/image";
-import Link from "next/link";
 import Logo from "../ui/logo";
 
 export default function Projects() {
