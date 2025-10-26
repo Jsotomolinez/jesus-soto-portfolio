@@ -1,5 +1,6 @@
 import Welcome from "@/components/sections/welcome"
 import About from "@/components/sections/about"
+import Projects from "@/components/sections/projects"
 import Stack from "@/components/sections/stack"
 import Certifications from "@/components/sections/certifications"
 import Contact from "@/components/sections/contact"
@@ -18,6 +19,10 @@ export default function Home() {
         <hr />
       </div>
       <About />
+      <div className="w-10/12 ">
+        <hr />
+      </div>
+      <Projects />
       <div className="w-10/12 ">
         <hr />
       </div>

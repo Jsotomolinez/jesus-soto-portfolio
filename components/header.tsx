@@ -32,6 +32,12 @@ export function Header() {
             Acerca de mi
           </Link>
           <Link
+            href="#projects"
+            className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
+          >
+            Proyectos
+          </Link>
+          <Link
             href="#stack"
             className="text-sm font-medium transition-all duration-300 hover:text-primary hover:shadow-[0_2px_0_0_currentColor]"
           >
