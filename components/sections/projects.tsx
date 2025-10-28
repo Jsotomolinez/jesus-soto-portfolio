@@ -14,17 +14,10 @@ export default function Projects() {
           Mis proyectos
         </h1>
         {/* <div className="grid grid-cols-3 lg:grid-cols-4 gap-5 justify-center"> */}
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-5">
 
           <Logo href="https://human-vs-ai-games.netlify.app/" src="/images/projects/human-vs-ai-games.png" alt="human-vs-ai-games" />
-          {/* <Logo href="https://www.docker.com/" src="/images/tech/docker.svg" alt="docker" />
-          <Logo href="https://www.python.org/" src="/images/tech/python.svg" alt="python" />
-          <Logo href="https://es.react.dev/" src="/images/tech/react.svg" alt="react" />
-          <Logo href="https://tailwindcss.com/" src="/images/tech/tailwind.svg" alt="tailwind" />
-          <Logo href="https://www.typescriptlang.org/" src="/images/tech/typescript.svg" alt="typescript" />
-          <Logo href="https://nextjs.org/" src="/images/tech/next.svg" alt="nextjs" />
-          <Logo href="https://www.postgresql.org/" src="/images/tech/postgresql.svg" alt="postgresql" />
-          <Logo href="https://www.mongodb.com/" src="/images/tech/mongodb.svg" alt="mongodb" /> */}
+          <Logo href="https://sae-uc.netlify.app/" src="/images/projects/sae-uc.png" alt="sae-uc" className="bg-white" />
         </div>
       </div>
     </section>

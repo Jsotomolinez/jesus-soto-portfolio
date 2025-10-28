@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Logo(
-  { href, src, alt }: { href: string; src: string; alt: string }
+  { href, src, alt, className }: { href: string; src: string; alt: string; className?: string }
 ) {
   return (
     <div className="relative">
@@ -14,7 +14,7 @@ export default function Logo(
           alt={alt}
           width={100}
           height={100}
-          className="relative flex size-20 md:size-30 shrink-0 overflow-hidden rounded-full bg-popover"
+          className={`relative flex size-20 md:size-30 shrink-0 overflow-hidden rounded-full ${className ?? "bg-popover"}`}
         />
       </Link>
     </div>
