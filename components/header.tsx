@@ -12,7 +12,7 @@ export function Header() {
       <div className="flex h-16 items-center justify-between">
         <div className="flex items-center gap-2 px-3">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/images/icon.ico" alt="Icon" width={60} height={60} className="bg-popover rounded-full"/>
+            <Image src="/images/icon.ico" alt="Icon" width={60} height={60} className="bg-popover rounded-full" />
             <span className="font-bold text-xl">Jesús Soto</span>
           </Link>
         </div>
@@ -59,7 +59,7 @@ export function Header() {
 
         <div className="flex items-center gap-2 px-5">
           {/* <ModeToggle /> */}
-          
+
 
           {/* Menú móvil */}
           <Sheet>
@@ -76,6 +76,9 @@ export function Header() {
                 </Link>
                 <Link href="#about" className="text-sm font-medium transition-colors hover:text-primary">
                   Acerca de mi
+                </Link>
+                <Link href="#projects" className="text-sm font-medium transition-colors hover:text-primary">
+                  Proyectos
                 </Link>
                 <Link href="#stack" className="text-sm font-medium transition-colors hover:text-primary">
                   Stack
